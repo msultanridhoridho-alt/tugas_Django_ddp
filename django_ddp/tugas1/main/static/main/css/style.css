@@ -1,0 +1,101 @@
+/* ===========================
+   General Body Styling
+=========================== */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Light grey background */
+    color: #333; /* Text color */
+    line-height: 1.6;
+    padding-bottom: 50px;
+}
+
+/* ===========================
+   Navbar Styling
+=========================== */
+.navbar {
+    margin-bottom: 20px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    margin-right: 15px;
+    font-size: 1.1rem;
+}
+
+/* ===========================
+   Headings
+=========================== */
+h1, h2, h3 {
+    color: #343a40; /* Darker color for headings */
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+
+/* ===========================
+   Tables
+=========================== */
+table {
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+table th {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+}
+
+table td {
+    text-align: center;
+}
+
+/* ===========================
+   Gallery Images
+=========================== */
+.img-fluid {
+    border: 2px solid #dee2e6;
+    padding: 3px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.img-fluid:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* ===========================
+   Paragraphs and Lists
+=========================== */
+p {
+    margin-bottom: 15px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+/* ===========================
+   Footer (Optional)
+=========================== */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
